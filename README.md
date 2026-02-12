@@ -11,9 +11,7 @@ HTML5
 
 SCSS
 
-BEM
-
-Flexbox / Grid
+Flexbox
 
 JavaScript
 

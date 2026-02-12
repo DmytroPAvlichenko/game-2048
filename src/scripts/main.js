@@ -45,16 +45,16 @@ gameButton.addEventListener('click', (ev) => {
 });
 
 function gameBoardUpdate(arr) {
-  const gameBord = arr || game.gameStatus.flat();
+  const gameBard = arr || game.gameStatus.flat();
 
-  for (let i = 0; i < gameBord.length; i++) {
-    const element = gameBord[i] === 0 ? '' : gameBord[i];
+  for (let i = 0; i < gameBard.length; i++) {
+    const element = gameBard[i] === 0 ? '' : gameBard[i];
 
     fieldCell[i].textContent = element;
 
     fieldCell[i].classList = `field-cell field-cell--${element}`;
 
-    if (gameBord[i] !== 0 && !fieldCell[i].classList.contains('cell-new')) {
+    if (gameBard[i] !== 0 && !fieldCell[i].classList.contains('cell-new')) {
       fieldCell[i].classList.add('cell-new');
 
       setTimeout(() => fieldCell[i].classList.remove('cell-new'), 200);
