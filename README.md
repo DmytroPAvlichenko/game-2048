@@ -2,7 +2,7 @@
 # 2048 Game
 
 🔗 Live Demo:
- - [DEMO LINK](https://DmytroPAvlichenko.github.io/js_2048_game/)
+ - [DEMO LINK](https://dmytropavlichenko.github.io/game-2048/)
 
 ## Project Overview:
 A browser-based implementation of the popular 2048 game, built using JavaScript. The game allows players to combine tiles and reach the 2048 tile, intuitive controls.
