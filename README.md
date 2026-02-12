@@ -1,11 +1,13 @@
-Game 2048
 
-🔗 Посилання на прев’ю
+# 2048 Game
+
+🔗 Live Demo:
  - [DEMO LINK](https://DmytroPAvlichenko.github.io/js_2048_game/)
 
-Короткий опис: Браузерна игра 2048 на JavaScript
+## Project Overview:
+A browser-based implementation of the popular 2048 game, built using JavaScript. The game allows players to combine tiles and reach the 2048 tile, intuitive controls.
 
-Технології, які було використано:
+Technologies Used:
 
 HTML5
 
@@ -17,7 +19,7 @@ JavaScript
 
 Git / GitHub Pages
 
-Запуск проекту
+## Getting Started:
 
 Clone the repository:
 git clone [repository](https://github.com/DmytroPAvlichenko/game-2048.git/)
